@@ -92,3 +92,26 @@ main {
 #restartBtn:hover {
     background: #2A2343;
 }
+@keyframes glow {
+  from { box-shadow: 0 0 10px #1892EA; }
+  to   { box-shadow: 0 0 20px #A737FF; }
+}
+#gameTitle {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 0 0 8px #A737FF, 0 0 12px #1892EA;
+  animation: glowTitle 1s ease-in-out infinite alternate;
+}
+#titleHeader {
+  font-size:  18px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 10px;
+  text-shadow: 0 0 8px #A737FF, 0 0 12px #1892EA;
+  animation: glowTitle 1s ease-in-out infinite alternate;
+}
