@@ -106,6 +106,10 @@ main {
   text-shadow: 0 0 8px #A737FF, 0 0 12px #1892EA;
   animation: glowTitle 1s ease-in-out infinite alternate;
 }
+@keyframes glowTitle {
+  from { text-shadow: 0 0 8px #1892EA, 0 0 12px #A737FF; }
+  to   { text-shadow: 0 0 16px #A737FF, 0 0 24px #1892EA; }
+}
 #titleHeader {
   font-size:  18px;
   font-weight: 700;
@@ -115,3 +119,4 @@ main {
   text-shadow: 0 0 8px #A737FF, 0 0 12px #1892EA;
   animation: glowTitle 1s ease-in-out infinite alternate;
 }
+
